@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Link to external CSS file -->
+</head>
+
+<body>
+    <header>
+        <h1>Weather App</h1>
+    </header>
+    <main>
+        <section id="location">
+            <h2>Location</h2>
+            <form id="location-form">
+                <input type="text" id="search-input" placeholder="Enter city name..." />
+                <button type="submit">Search</button>
+            </form>
+        </section>
+        <section id="current-weather">
+            <h2>Current Weather</h2>
+            <div id="weather-details">
+                <!-- Weather details will be dynamically populated here -->
+            </div>
+        </section>
+        <section id="forecast">
+            <h2>5-Day Forecast</h2>
+            <div id="forecast-details">
+                <!-- Forecast details will be dynamically populated here -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Weather App. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+    <!-- Link to external JavaScript file -->
+</body>
+
+</html>
